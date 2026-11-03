@@ -1,4 +1,7 @@
-# Experiment 3: Histogram of an Image
+# Experiment 3: Record-Histogram processing
+
+### Name: Parani Bala M
+### reg.no: 212224230192
 
 ## Aim
 To calculate and plot the histogram of an image and perform histogram equalization using Python, OpenCV, NumPy, and Matplotlib to improve image contrast.
@@ -115,6 +118,16 @@ plt.title('Histogram Equalized')
 
 plt.show()
 ```
+## Output:
+<img width="1511" height="610" alt="image" src="https://github.com/user-attachments/assets/a66d5551-f9bb-4407-b56b-acf0341ba0de" />
+<img width="1506" height="583" alt="image" src="https://github.com/user-attachments/assets/35cdc1dd-a093-4fe1-928a-9f7fb4748a64" />
+<img width="1500" height="637" alt="image" src="https://github.com/user-attachments/assets/3a7af5e2-4fc5-4023-b88f-847229a08722" />
+<img width="1502" height="606" alt="image" src="https://github.com/user-attachments/assets/ac1cace8-2e03-4012-b370-c49308d086ca" />
+<img width="1515" height="600" alt="image" src="https://github.com/user-attachments/assets/aa164858-4bc8-4a43-8790-6a00e3592000" />
+<img width="1507" height="607" alt="image" src="https://github.com/user-attachments/assets/9c335ff3-b10b-425b-af41-28f17e8bad44" />
+<img width="1522" height="532" alt="image" src="https://github.com/user-attachments/assets/adf755be-3029-490b-b02f-b6a047a48642" />
+<img width="1507" height="493" alt="image" src="https://github.com/user-attachments/assets/6c444512-57ac-421e-bfef-4c1042120bfa" />
+
 
 ## Result
 The histogram of the input image was plotted, and histogram equalization was performed on both grayscale and color images. The original and equalized images and their histograms were displayed for comparison. In the color image, equalization was applied to the Value channel in HSV color space to improve contrast while retaining the color information.
